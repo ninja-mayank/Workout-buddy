@@ -18,7 +18,7 @@ router.get('/:id', getSingleWorkout)
 router.post('/', createWorkout)
 
 // DELETE a workout
-router.delete('/:id', deleteWorkout)
+router.delete('/:id', deleteWorkout)    
 
 // UPDATE a workout
 router.patch('/:id', updateWorkout)
